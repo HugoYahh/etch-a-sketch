@@ -67,10 +67,31 @@ button:active {
     background-color: #282b31;
 }
 
+button:hover {
+    transform: translateY(-3px);
+
+}
+
 
 #grid-size-input {
     accent-color: #00ADB5;
 }
 
+.grid {
+    box-sizing: border-box;
+}
 
-.grid-container {}
+
+.grid-container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(245, 244, 244, 0.19);
+    flex-shrink: 0;
+
+
+}
