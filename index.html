@@ -18,18 +18,19 @@
         <div class="options-container">
             <h3 id="title-options">Options</h3>
             <div class="top">
+                <input type="color" value="#393E46" class="color-choice">
                 <button class="btn" id="color-btn">Color</button>
                 <button class="btn" id="clear-btn">Clear</button>
                 <button class="btn" id="rainbow-btn">Rainbow Mode</button>
                 <button class="btn" id="eraser-btn">Eraser</button>
             </div>
             <div class="bottom">
-                <label for="grid-size-input">Grid Size</label>
+                <label for="grid-size-input" id="grid-size-input-text">Grid Size</label>
                 <input type="range" id="grid-size" min="1" max="100">
                 <p id="grid-size-text">50x50</p>
             </div>
         </div>
-        <div class="grid-container">
+        <div class="grid-container" draggable="false">
 
         </div>
     </div>

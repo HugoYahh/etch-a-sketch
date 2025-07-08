@@ -35,6 +35,8 @@ header {
     flex-direction: column;
     gap: 30px;
     margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom {
@@ -53,6 +55,22 @@ label {
     text-align: center;
 }
 
+.color-choice::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.color-choice {
+    padding: 0px;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(245, 244, 244, 0.19);
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+
+
+}
+
 .btn {
     font-size: 20px;
     color: #EEEEEE;
@@ -60,6 +78,8 @@ label {
     border-radius: 6px;
     padding: 10px 30px;
     border: 1px solid #EEEEEE;
+    width: 195px;
+    height: 45px;
 }
 
 button:active {
@@ -73,8 +93,19 @@ button:hover {
 }
 
 
+#grid-size-input-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#grid-size-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
 #grid-size-input {
     accent-color: #00ADB5;
+
 }
 
 .grid {
@@ -92,6 +123,7 @@ button:hover {
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(245, 244, 244, 0.19);
     flex-shrink: 0;
+
 
 
 }
